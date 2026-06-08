@@ -162,3 +162,28 @@ ADDING THE TOP 5 RECENT PURCHASES & APPLICATIONS SENT IF ANY
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
 }
+
+/*========================
+NOTES & REMINDERS STYLING
+==========================*/
+
+.notes-reminders-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12px 36px;
+}
+
+.notes-card {
+    background: #1f1f1f;
+    width: 900px;
+    text-align: center;
+    border-radius: 14px;
+
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+.notes-card:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2)
+}

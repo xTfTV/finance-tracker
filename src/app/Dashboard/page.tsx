@@ -1,12 +1,11 @@
 import './dashboard.css'
+import Link from 'next/link'
 
 // Can also just use the <title></title> tags but this taught me something new so oh well
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
     title: 'Dashboard'
 }
-
-import Link from 'next/link'
 
 
 export default function Dashboard() {
@@ -16,6 +15,7 @@ export default function Dashboard() {
                 <nav>
                     <Link href="/Dashboard" className="link-style">Dashboard</Link>
                     <Link href="/Finances" className="link-style">Finances</Link>
+                    <Link href="/Tasks" className="link-style">Task Manager</Link>
                     <Link href="/About" className="link-style">About</Link>
                     <Link href="/" className="link-style">Logout</Link>
                 </nav>
@@ -43,6 +43,8 @@ export default function Dashboard() {
                 </div>
             </div>
 
+            {/* This will need to be updated once the backend, API routes are made */}
+            {/* Just for UI creation to visualize the layout */}
             <div className="transactions-job-container">
                 <div className="transactions-container">
                     <h2>Recent Transactions:</h2>
@@ -59,6 +61,18 @@ export default function Dashboard() {
                     <p>Job 3</p>
                     <p>Job 4</p>
                     <p>Job 5</p>
+                </div>
+            </div>
+
+            <div className="notes-reminders-container">
+                <div className="notes-card">
+                    <h1>Notes / Reminders</h1>
+                    {/* Maybe will change this to a list format, not sure this is also temp */}
+                    <p>Item 1</p>
+                    <p>Item 2</p>
+                    <p>Item 3</p>
+                    <p>Item 4</p>
+                    <p>Item 5</p>
                 </div>
             </div>
         </div>
