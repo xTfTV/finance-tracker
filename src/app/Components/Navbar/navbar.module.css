@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+
+.font {
+    font-family: 'Rajdhani', 'sans-serif';
+}
+
+/* Parent box for the navbar */
+.NavbarContainer nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.NavbarContainer {
+    padding: 20px 20px;
+}
+
+/* Button styling */
+.LinkStyle {
+    padding: 8px 12px;
+    text-decoration: none;
+
+    /* Adding the button styles for the navbar */
+    border-radius: 10px;
+    background-color: #1f1f1f;
+
+    /* Smooth hover animation */
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+/* Now we add the pop out affect when hovering over the button */
+.LinkStyle:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+

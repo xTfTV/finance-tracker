@@ -1,0 +1,189 @@
+/* IMPORTING THE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+
+.page-container {
+    min-height: 100vh;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* Parent box for the navbar */
+.Navbar-container nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.Navbar-container {
+    padding: 20px 20px;
+}
+
+/* Button styling */
+.link-style {
+    padding: 8px 12px;
+    text-decoration: none;
+
+    /* Adding the button styles for the navbar */
+    border-radius: 10px;
+    background-color: #1f1f1f;
+
+    /* Smooth hover animation */
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+/* Now we add the pop out affect when hovering over the button */
+.link-style:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+
+/*========================== 
+ADDING THE WELCOME STYLES
+===========================*/
+
+.welcome-message-container {
+    padding: 12px 28px;
+
+    margin: 30 auto;
+    width: fit-content;
+
+    border-radius: 15px;
+    background-color: #1f1f1f;
+
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+/* Styles for the message */
+.welcome-header h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Why not lets do the hover effect here too */
+.welcome-message-container:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+/*==========================
+ADDING THE TOTALS OVERVIEW
+============================*/
+
+.finance-overview-container {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.balance-container {
+    padding: 16px 32px;
+
+    border-radius: 12px;
+    background-color: #1f1f1f;
+
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+.balance-container:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.monthly-spending-container {
+    padding: 16px 32px;
+
+    border-radius: 12px;
+    background-color: #1f1f1f;
+
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+.monthly-spending-container:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.tasks-due-container {
+    padding: 16px 32px;
+
+    border-radius: 12px;
+    background-color: #1f1f1f;
+
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+.tasks-due-container:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+/*===========================================================
+ADDING THE TOP 5 RECENT PURCHASES & APPLICATIONS SENT IF ANY
+=============================================================*/
+
+.transactions-job-container {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    padding: 20px 36px;
+
+    text-align: center;
+}
+
+.transactions-container {
+    background-color: #1f1f1f;
+    border-radius: 18px;
+    width: 400px;
+    padding: 12px 36px;
+
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+.transactions-container:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.job-container {
+    background-color: #1f1f1f;
+    border-radius: 18px;
+    width: 400px;
+    padding: 12px 36px;
+
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+.job-container:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+/*========================
+NOTES & REMINDERS STYLING
+==========================*/
+
+.notes-reminders-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12px 36px;
+}
+
+.notes-card {
+    background: #1f1f1f;
+    width: 900px;
+    text-align: center;
+    border-radius: 14px;
+
+    transition: transform 0.2 ease, box-shadow 0.2s ease;
+}
+
+.notes-card:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2)
+}
