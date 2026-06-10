@@ -1,10 +1,16 @@
 import './tasks.css';
-import Link from 'next/link';
+import Navbar from '../Components/Navbar/navbar';
 
 export default function Tasks() {
     return (
-        <div>
-            
+        <div className="page-container">
+            <title>Task Manager</title>
+            <Navbar />
+            <div className="header-container">
+                <div className="header-card">
+
+                </div>
+            </div>
         </div>
     );
 }
