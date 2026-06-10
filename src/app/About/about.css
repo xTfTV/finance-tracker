@@ -1,0 +1,66 @@
+/* IMPORTING THE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+
+/*================
+ABOUT CARD STYLES
+==================*/
+
+.page-layout {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.about-card {
+    background-color: #1f1f1f;
+    border-radius: 18px;
+
+    width: 800px;
+    max-width: 100%;
+    padding: 32px 40px;
+
+    text-align: center;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-card h1 {
+    margin-top: 0;
+}
+
+.about-card p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.about-card:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255,255,255,0.2)
+}
+
+/*==================
+BACK BUTTON STYLING
+====================*/
+
+.back-button {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    text-decoration: none;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255,255,255,0.2);
+}
