@@ -8,7 +8,6 @@ export default function Tasks() {
             <Navbar />
             <div className="header-container">
                 <div className="header-card">
-                    <h1>Hello</h1>
                 </div>
             </div>
         </div>
