@@ -1,5 +1,5 @@
 import './dashboard.css'
-import Link from 'next/link'
+import Navbar from '../Components/Navbar/navbar';
 
 // Can also just use the <title></title> tags but this taught me something new so oh well
 import type { Metadata } from 'next';
@@ -11,15 +11,8 @@ export const metadata: Metadata = {
 export default function Dashboard() {
     return (
         <div className="page-container">
-            <div className="Navbar-container">
-                <nav>
-                    <Link href="/Dashboard" className="link-style">Dashboard</Link>
-                    <Link href="/Finances" className="link-style">Finances</Link>
-                    <Link href="/Tasks" className="link-style">Task Manager</Link>
-                    <Link href="/About" className="link-style">About</Link>
-                    <Link href="/" className="link-style">Logout</Link>
-                </nav>
-            </div>
+
+            <Navbar />
 
             <div className="welcome-message-container">
                 <div className="welcome-header">
