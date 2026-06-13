@@ -1,6 +1,52 @@
 /* IMPORTING THE FONT */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
 
-.page-layout {
-    font-family: 'Rajdhni', 'sans-serif';
+.page-container {
+    font-family: 'Rajdhani', 'sans-serif';
+}
+
+.header-container {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    padding: 28px;
+}
+
+.header-card {
+    padding: 10px;
+    text-align: center;
+
+    background-color: #1f1f1f;
+    border-radius: 28px;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 950px;
+}
+
+.header-card:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255,255,255,0.2);
+}
+
+.header-card h1 {
+    font-size: 56px;
+}
+
+.header-card p {
+    font-size: 36px;
+}
+
+.next-prev-container {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+
+.next-prev-card {
+    display: flex;
+    gap: 16px;
 }
