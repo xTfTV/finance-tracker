@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
 
 .page-container {
-    font-family: 'Rajdhani', 'sans-serif';
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .header-container {
@@ -48,5 +48,100 @@
 
 .next-prev-card {
     display: flex;
-    gap: 16px;
+    gap: 40px;
+}
+
+.next-prev-card button {
+    background-color: #1f1f1f;
+    width: 75px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.next-prev-card button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 12px rgba(255,255,255,0.2);
+}
+
+.next-prev-card h3 {
+    background-color: #1f1f1f;
+    width: 175px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.new-task-container {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 18px 26px;
+}
+
+.new-task-layout {
+    border: 2px solid cyan;
+}
+
+.new-task-form {
+    border: 2px solid purple;
+    padding: 20px;
+}
+
+.new-task-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.new-task-form input,
+.new-task-form select,
+.new-task-form button {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    width: 400px;
+}
+
+.daily-notes-form {
+    border: 2px solid orange;
+    display: flex;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.daily-notes-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.daily-notes-form textarea,
+.daily-notes-form select,
+.daily-notes-form button {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    width: 400px;
+}
+
+.daily-notes-form textarea {
+    width: 100%;
+    height: 185px;
+    padding: 16px;
+    box-sizing: border-box;
+
+    resize: none;
+    vertical-align: top;
+
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.new-task-form label,
+.daily-notes-form label {
+    font-weight: bold;
 }
