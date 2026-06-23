@@ -60,6 +60,29 @@ export default function Tasks() {
                     </form>
                 </div>
             </div>
+
+            <div className="notes-tasks-container">
+                <div className="task-display">
+                    <div className = "task-display-child">
+                        <h3>Todays Tasks</h3>
+                        <ul>
+                            <li>Task 1</li>
+                            <li>Task 2</li>
+                            <li>Task 3</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="notes-display">
+                    <div className="notes-display-child">
+                        <h3>Todays Notes</h3>
+                        <ul>
+                            <li>Note 1</li>
+                            <li>Note 2</li>
+                            <li>Note 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

@@ -81,13 +81,10 @@
     padding: 18px 26px;
 }
 
-.new-task-layout {
-    border: 2px solid cyan;
-}
-
 .new-task-form {
-    border: 2px solid purple;
     padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 14px;
 }
 
 .new-task-form form {
@@ -106,10 +103,11 @@
 }
 
 .daily-notes-form {
-    border: 2px solid orange;
     display: flex;
     min-width: 300px;
     padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 14px;
 }
 
 .daily-notes-form form {
@@ -144,4 +142,53 @@
 .new-task-form label,
 .daily-notes-form label {
     font-weight: bold;
+}
+
+/* User list for the tasks and notes */
+
+.notes-tasks-container {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 28px;
+}
+
+.task-display,
+.notes-display {
+    border: 1px solid cyan;
+    width: 440px;
+    min-height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1f1f1f;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+
+.task-display-child,
+.notes-display-child {
+    border: 1px solid white;
+    text-align: center;
+}
+
+.task-display-child h3,
+.notes-display-child h3 {
+    margin: 0 0 10px 0;
+}
+
+.task-display ul,
+.notes-display ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-display li,
+.notes-display li {
+    margin-bottom: 6px;
+    background-color: #3b3b3b;
 }
