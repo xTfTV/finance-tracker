@@ -6,7 +6,6 @@
 }
 
 .header-container {
-    border: 2px solid white;
     display: flex;
     justify-content: center;
 
@@ -40,7 +39,6 @@
 }
 
 .next-prev-container {
-    border: 2px solid white;
     display: flex;
     justify-content: center;
     padding: 18px;
@@ -74,7 +72,6 @@
 }
 
 .new-task-container {
-    border: 2px solid white;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -147,7 +144,6 @@
 /* User list for the tasks and notes */
 
 .notes-tasks-container {
-    border: 1px solid white;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -156,7 +152,6 @@
 
 .task-display,
 .notes-display {
-    border: 1px solid cyan;
     width: 440px;
     min-height: 200px;
 
@@ -171,8 +166,8 @@
 
 .task-display-child,
 .notes-display-child {
-    border: 1px solid white;
     text-align: center;
+    width: 200px;
 }
 
 .task-display-child h3,
@@ -191,4 +186,5 @@
 .notes-display li {
     margin-bottom: 6px;
     background-color: #3b3b3b;
+    border-radius: 6px;
 }
