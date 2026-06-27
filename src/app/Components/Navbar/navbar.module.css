@@ -26,7 +26,7 @@
     background-color: #1f1f1f;
 
     /* Smooth hover animation */
-    transition: transform 0.2 ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 /* Now we add the pop out affect when hovering over the button */
